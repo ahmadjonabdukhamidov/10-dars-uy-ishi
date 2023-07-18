@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/bmw\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero-div {
+  background-color: white;
+  width: 50rem;
+  min-height: 8rem;
+  padding: 2rem;
+  border-radius: 0.6rem;
+}
+
+#hero-div input {
+  font-size: 2rem;
+  width: 80%;
+  height: 4rem;
+  border: 0.2rem solid #d1d3d4;
+  border-radius: 0.7rem;
+  padding: 0 0 0 1rem;
+}
+
+#hero-div input:focus {
+  outline: none;
+  border-color: #0d75ec;
+}
+
+#hero-div button {
+  float: right;
+  width: 6.5rem;
+  height: 4rem;
+  margin-left: 0.95rem;
+  border-radius: 0.7rem;
+  border: 0.2rem solid #d1d3d4;
+  font-size: 2rem;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#enters {
+  width: 100%;
+  padding-top: 1rem;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}
+
+.enter {
+  border-radius: 0.6rem;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.2rem solid #939697;
+  cursor: pointer;
+  background-color: #c5e1e6;
+  height: 5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+}
+
+.enter span {
+  font-size: 1.5rem;
+}
+
+.enter button {
+  background-color: #0a2ea4;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 100%;
+  width: 4rem;
+  border-radius: 0.5rem;
+}
